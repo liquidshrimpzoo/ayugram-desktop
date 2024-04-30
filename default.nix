@@ -65,7 +65,7 @@ let
 in
 stdenv.mkDerivation rec {
   pname = "ayugram-desktop";
-  version = "4.15";
+  version = "4.16.8";
 
   src = fetchFromGitHub {
     owner = "AyuGram";

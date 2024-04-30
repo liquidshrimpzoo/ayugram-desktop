@@ -72,7 +72,7 @@ stdenv.mkDerivation rec {
     repo = "AyuGramDesktop";
     rev = "v${version}";
     fetchSubmodules = true;
-    hash = "sha256-7WBMF+plDuYu/Nn0rs7DLqKbxXg3apaM7FEpDvHJyhI=";
+    hash = "sha256-1cwhbbhvysnwmyvqx7h2189zm02aq45prw6738kklkr5pi700q6j";
   };
 
   patches = [

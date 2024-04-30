@@ -235,7 +235,7 @@ stdenv.mkDerivation rec {
   meta = with lib; {
     description = "Desktop Telegram client with good customization and Ghost mode.";
     license = licenses.gpl3Only;
-    platforms = platforms.linux;
+    platforms = platforms.linux ++ platforms.darwin;
     homepage = "https://github.com/AyuGram/AyuGramDesktop";
     changelog = "https://github.com/Ayugram/AyuGramDesktop/releases/tag/v${version}";
     maintainers = with maintainers; [ ];

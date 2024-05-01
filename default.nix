@@ -196,6 +196,7 @@ stdenv.mkDerivation rec {
     # See: https://github.com/NixOS/nixpkgs/pull/130827#issuecomment-885212649
     "-DDESKTOP_APP_USE_PACKAGED_FONTS=OFF"
     "-DDESKTOP_APP_DISABLE_SCUDO=ON"
+    "-DDESKTOP_APP_QT6=ON"
   ];
 
   preBuild = ''
